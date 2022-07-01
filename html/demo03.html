@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="kaywords" content="lyh">
+    <meta name="author" content="lyh">
+    <title>lyh的html模板页面</title>
+</head>
+
+<body>
+
+    <!-- 表格 -->
+    <!-- border:设置表格边框 -->
+    <table border="1">
+        <!-- thead：页眉 -->
+        <thead>
+            <tr>
+                <!-- colspan:设置标签占据表格的列数-->
+                <th colspan="5">太平洋小学成绩表</th>
+            </tr>
+        </thead>
+        <!-- 
+            tr:行
+        -->
+        <tr>
+            <!-- th:表头 -->
+            <th>姓名</th>
+            <th>性别</th>
+            <th>年龄</th>
+            <th>成绩</th>
+            <th>备注</th>
+        </tr>
+        <tr>
+            <!-- td:表格单元 -->
+            <td>小明</td>
+            <td>男</td>
+            <td>18</td>
+            <td>99</td>
+            <!-- rowspan:设置标签占据表格的行数 -->
+            <td rowspan="3">暂无</td>
+        </tr>
+        <tr>
+            <!-- td:表格单元 -->
+            <td>小李</td>
+            <td>男</td>
+            <td>20</td>
+            <td>88</td>
+        </tr>
+        <tr>
+            <!-- td:表格单元 -->
+            <td>小美</td>
+            <td>女</td>
+            <td>20</td>
+            <td>100</td>
+        </tr>
+    </table>
+
+    <!-- 列表 -->
+    <!-- 无需列表：没有序号的列表 -->
+
+    <p>商品列表</p>
+    <ul>
+        <li>芬达</li>
+        <li>雪碧</li>
+        <li>可乐</li>
+    </ul>
+
+    <!-- 有序列表：有序号的列表，序号是递增的 -->
+    <p>商品列表</p>
+    <ol>
+        <li>芬达</li>
+        <li>雪碧</li>
+        <li>可乐</li>
+    </ol>
+
+    <!-- 自定义列表 -->
+    <p>自定义列表</p>
+    <dl>
+        <dt>小明</dt>
+        <dd>小明在打篮球</dd>
+        <dt>小王</dt>
+        <dd>小王在唱跳</dd>
+        <dt>小张</dt>
+        <dd>小张在rap</dd>
+    </dl>
+
+</body>
+
+</html>

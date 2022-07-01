@@ -1,0 +1,32 @@
+/* body样式 */
+/* 
+    单位：px
+*/
+body {
+  /* 
+        margin：边距的宽度
+        padding：间隔的宽度
+    */
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  /* 设置文本颜色 */
+  color: blue;
+  /* 文本居中 */
+  text-align: center;
+}
+
+b {
+  /* background/background-color:背景颜色 */
+  background: red;
+  /* background-color: brown */
+}
+
+/* 
+  自定义样式属性优先级>自带的样式属性
+*/
+.js {
+  color: blueviolet;
+}
