@@ -57,7 +57,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 70%;
+  width: 75%;
 }
 
 .inputs {
@@ -114,7 +114,7 @@ body {
   display: block;
   text-align: center;
   background: white;
-  padding: 0.25rem 0.4rem;
+  padding: 0rem 0.45rem;
   font-size: 12px;
   color: #ff4400;
   cursor: pointer;
@@ -125,8 +125,8 @@ body {
 }
 
 .downloads img {
-  width: 60px;
-  height: 60px;
+  width: 58px;
+  height: 58px;
 }
 
 .main {
@@ -151,15 +151,33 @@ body {
   background: #f7f9fa;
   border-radius: 0.7rem;
   padding: 11px 0px;
-  border: 1.3px solid #f7f9fa;
+  border: 1.4px solid #f7f9fa;
   margin: 0.3rem 0rem;
 }
 
 .goods:hover {
   cursor: pointer;
   background: white;
-  border: 1.3px solid #ff915e;
+  border: 1.4px solid #ff915e;
+  box-shadow: 0.3rem 0.3rem 1rem rgb(234, 234, 234);
+  /* 动画效果 自定义动画名称 动画事件 */
+  animation: goods_animation 0.7s;
 }
+
+/* 自定义动画 @keyframes 动画名称 */
+@keyframes goods_animation {
+  /* 动画执行进度的样式 当前进度：0% */
+  0% {
+    border: 1.4px solid #ffffff;
+    box-shadow: 0.3rem 0.3rem 1rem rgb(255, 255, 255);
+  }
+  /* 动画执行进度的样式 当前进度：100% */
+  100% {
+    border: 1.4px solid #ff915e;
+    box-shadow: 0.3rem 0.3rem 1rem rgb(234, 234, 234);
+  }
+}
+
 .goods > div {
   margin: 0rem 0.4rem;
 }
@@ -219,8 +237,8 @@ body {
   /* 设置与右侧的距离 */
   right: 0;
   /* 设置与顶部的距离 */
-  top: 50%;
-  background: #f7f9fa;
+  top: 35%;
+  background: rgb(247, 249, 250);
   /* 
   计量单位个数
   一个：对上右下左都生效(上下左右)
@@ -228,22 +246,23 @@ body {
   四个：对上右下左都生效(上 右 下 左)
   */
   /* 上 右 下 左 */
-  border-radius: 0.5rem 0rem 0rem 0.5rem;
+  border-radius: 1rem 0rem 0rem 1rem;
 }
 
 .rigt_btns > div {
   display: block;
   /* 间距-距离 */
-  margin: 1rem 0.5rem;
+  margin: 1rem 0.3rem;
 }
 
 .rigt_btns > div > div {
   display: block;
-  margin: 1rem 0rem;
+  margin: 1.5rem 0rem;
   /* 文本居中 */
   text-align: center;
   /* 添加指针手指效果 */
   cursor: pointer;
+  font-size: 13px;
 }
 
 .rigt_btns > div > div i {

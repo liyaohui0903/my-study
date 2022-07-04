@@ -20,7 +20,7 @@ body {
 }
 
 .left {
-  width: 300px;
+  width: 350px;
   height: 550px;
   margin-top: 3rem;
   margin-left: 2rem;
@@ -40,6 +40,7 @@ body {
 .left > div:hover {
   cursor: pointer;
   color: yellow;
+  background: rgb(214, 158, 68);
 }
 
 .left > div:nth-child(1) {
@@ -67,8 +68,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 2rem;
-  width: 1500px;
-  height: 650px;
+  padding-bottom: 2rem;
   background: rgb(239, 239, 239);
   border-radius: 1rem;
 }
@@ -107,9 +107,12 @@ body {
 
 .bottom {
   display: flex;
+  width: 100%;
   height: 2rem;
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  margin-top: 5.8rem;
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(127, 255, 212, 0.28);
 }
