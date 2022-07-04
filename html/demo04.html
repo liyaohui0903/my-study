@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="kaywords" content="lyh">
+    <meta name="author" content="lyh">
+    <title>html-压力布局一</title>
+    <style>
+        .goods {
+            display: flex;
+        }
+
+        .goods>div {
+            background: rgb(235, 96, 96);
+            width: 200px;
+            height: 300px;
+        }
+
+        .goods>div:hover {
+            /* 
+        box-shadow：设置阴影
+        参数：方位值 方位值 阴影的显现度 颜色值
+        */
+            box-shadow: 0.5rem 0.5rem 0.6rem rgb(85, 79, 79);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 
+        区块元素：块级元素、内联元素
+    -->
+    <!-- 块级元素：默认占满一行，新的块级元素会新起一行 -->
+    <div>这是一个块级元素</div>
+    <div>这是一个块级元素2</div>
+
+    <p>段落1</p>
+    <p>段落2</p>
+
+    <h4>标题1</h4>
+    <h4>标题2</h4>
+
+    <ul>
+        <li>列表1</li>
+        <li>列表2</li>
+        <li>列表3</li>
+    </ul>
+    <ul>
+        <li>列表1</li>
+        <li>列表2</li>
+        <li>列表3</li>
+    </ul>
+    <ul>
+        <li>列表1</li>
+        <li>列表2</li>
+        <li>列表3</li>
+    </ul>
+
+    <table>
+        <tr>
+            <td>表格1</td>
+            <td>表格2</td>
+            <td>表格3</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>表格1</td>
+            <td>表格2</td>
+            <td>表格3</td>
+        </tr>
+    </table>
+
+    <!-- 内联元素: -->
+    <b>粗体1</b>
+    <b>粗体2</b>
+    <del>删除线1</del>
+    <del>删除线2</del>
+    <a href="">超链接1</a>
+    <a href="">超链接2</a>
+    <img src="" alt="图1">
+    <img src="" alt="图2">
+    <span>span1</span>
+    <span>span2</span>
+
+    <div class="goods">
+        <div>
+            商品信息
+        </div>
+    </div>
+
+
+</body>
+
+</html>

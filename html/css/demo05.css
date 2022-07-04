@@ -1,0 +1,265 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  /* 整个页面 */
+  background: #eae8eb;
+  /* 设置背景图片 */
+  /* background-image: url('https://s.cn.bing.net/th?id=OHR.HalfwayDay_ZH-CN1333459630_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&qlt=30'); */
+  /* 背景图片自适应 */
+  /* background-size: cover; */
+}
+
+.top {
+  display: flex;
+  height: 2rem;
+  background-color: #f5f5f5;
+}
+
+.top > div {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.top > div > div {
+  /* 压力盒子 */
+  display: flex;
+  /* 压力居中 */
+  justify-content: center;
+}
+
+.top > div > div > div {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #6c6c6c;
+  margin: 0rem 0.5rem;
+}
+
+/* :hover 鼠标放上去标签的样式 */
+.top > div > div > div:hover {
+  cursor: pointer;
+  color: #ff4400;
+}
+
+.hand {
+  display: flex;
+  padding: 24px;
+}
+
+.hand > div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.hand > div > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 0.3rem 0rem 0.3rem 0.4rem;
+  border-radius: 3.5rem;
+  /* 设置边框 (边框大小 solid 颜色值) */
+  border: 2px solid #ff5000;
+}
+
+.inputs > div {
+  margin-top: 1rem;
+  margin: 0rem 0.3rem;
+}
+
+.inputs input {
+  /* 去除边框-没有选中时 */
+  border: none;
+  /* 去除边框-选中时 */
+  outline: none;
+  padding: 0.4rem 0rem;
+  width: 500px;
+}
+
+.inputs button {
+  border-radius: 1rem;
+  border: none;
+  background: #ff6a00;
+  color: white;
+  padding: 0.3rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.types {
+  display: flex;
+  font-size: 12px;
+  color: #6c6c6c;
+  margin: 0.6rem 1.2rem;
+}
+
+.types > div {
+  margin: 0rem 0.4rem;
+}
+
+.types > div:hover {
+  cursor: pointer;
+  color: #ff4400;
+}
+
+.downloads {
+  display: block;
+  text-align: center;
+  background: white;
+  padding: 0.25rem 0.4rem;
+  font-size: 12px;
+  color: #ff4400;
+  cursor: pointer;
+}
+
+.downloads > div {
+  margin: 0.2rem 0rem;
+}
+
+.downloads img {
+  width: 60px;
+  height: 60px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main > div {
+  display: flex;
+  /* 自动换行 */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 1251px;
+  padding: 1rem;
+  background: #ffffff;
+  /* 设置边角 */
+  border-radius: 0.7rem;
+}
+
+.goods {
+  display: flex;
+  background: #f7f9fa;
+  border-radius: 0.7rem;
+  padding: 11px 0px;
+  border: 1.3px solid #f7f9fa;
+  margin: 0.3rem 0rem;
+}
+
+.goods:hover {
+  cursor: pointer;
+  background: white;
+  border: 1.3px solid #ff915e;
+}
+.goods > div {
+  margin: 0rem 0.4rem;
+}
+
+.goods img {
+  width: 150px;
+  height: 150px;
+  border-radius: 0.8rem;
+}
+
+.infos {
+  width: 220px;
+}
+
+/* 
+  :first-child  对第一个子元素标签生效
+*/
+.infos > div:first-child {
+  font-size: 16px;
+  color: #333;
+}
+
+.infos > div:first-child:hover {
+  color: #ff915e;
+}
+
+/* 
+  :nth-child(x)  对第x个子元素标签生效
+*/
+.infos > div:nth-child(2) {
+  display: flex;
+  font-size: 13px;
+}
+
+.infos > div:nth-child(2) > div {
+  border: 1px solid #fab596;
+  border-radius: 0.3rem;
+  color: #ff5000;
+  background: white;
+  padding: 0.1rem 0.2rem;
+  margin: 0.5rem 0rem;
+}
+
+/* 
+  :last-child 对最后一个元素标签生效
+*/
+.infos > div:last-child {
+  font-size: 1.25rem;
+  color: #ff5000;
+  margin-top: 2rem;
+}
+
+.rigt_btns {
+  display: flex;
+  /* 固定作用 */
+  position: fixed;
+  /* 设置与右侧的距离 */
+  right: 0;
+  /* 设置与顶部的距离 */
+  top: 50%;
+  background: #f7f9fa;
+  /* 
+  计量单位个数
+  一个：对上右下左都生效(上下左右)
+  两个：对上右下左都生效(上下 左右)
+  四个：对上右下左都生效(上 右 下 左)
+  */
+  /* 上 右 下 左 */
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+
+.rigt_btns > div {
+  display: block;
+  /* 间距-距离 */
+  margin: 1rem 0.5rem;
+}
+
+.rigt_btns > div > div {
+  display: block;
+  margin: 1rem 0rem;
+  /* 文本居中 */
+  text-align: center;
+  /* 添加指针手指效果 */
+  cursor: pointer;
+}
+
+.rigt_btns > div > div i {
+  font-size: 1.3rem;
+  /* 加粗字体 */
+  font-weight: bold;
+}
+
+.bottom {
+  display: flex;
+  /* 压力居中 */
+  justify-content: center;
+  /* 垂直居中 */
+  align-items: center;
+  background: #ffffff;
+  height: 2rem;
+  font-size: 12px;
+  margin-top: 1.5rem;
+}
