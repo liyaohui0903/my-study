@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="kaywords" content="lyh">
+  <meta name="author" content="lyh">
+  <title>html-表单</title>
+</head>
+
+<body>
+
+  <!-- 
+    表单：前后端交互的一个关键
+    java-web：form表单
+    表单的作用：收集用户输入的信息
+    action:表单的一个请求地址-后端接口地址
+    method:表单的一个请求方式(GET-默认\POST)
+    GET:请求的数据会暴露在地址栏，他是不安全的
+    POST:他请求的数据不会暴露在地址栏，他是安全的
+  -->
+
+  <form action="" method="post">
+    <div>
+      <!-- input:输入框标签 -->
+      <!-- 
+        type:类别/类型-输入框的类别
+        text:文本-文本输入框
+        placeholder:输入框未输入时提示的文本内容
+        name:表单标签的字段号名称
+        value:表单标签的值
+      -->
+      <input type="text" placeholder="用户名" name="username" value="">
+    </div>
+    <div>
+      <!-- password:密码/密文输入框 -->
+      <input type="password" placeholder="请输入密码" name="password" value="">
+    </div>
+    <div>
+      <!-- radio:单选框 -->
+      <!-- 性别单选框 -->
+      <input type="radio" name="sex" value="boy">男
+      <input type="radio" name="sex" value="girl">女
+    </div>
+    <div>
+      <!-- 
+        checkbox:复选框
+      -->
+      请选择你的兴趣爱好：
+      <input type="checkbox" name="like" value="bike">骑行
+      <input type="checkbox" name="like" value="music">音乐
+      <input type="checkbox" name="like" value="movies">电影
+      <input type="checkbox" name="like" value="write">写作
+    </div>
+    <div>
+      <!-- select:选择列表 -->
+      <!-- 出生年份选择列表 -->
+      <select name="age" id="">
+        <!-- option:下拉列表的选项 -->
+        <option value="01">2001</option>
+        <option value="02">2002</option>
+        <option value="03">2003</option>
+        <option value="04">2004</option>
+        <option value="05">2005</option>
+        <option value="06">2006</option>
+      </select>
+    </div>
+    <div>
+      <!-- button:按钮 -->
+      <input type="button" value="登录">
+      <button>登录按钮</button>
+    </div>
+    <div>
+      <!-- submit：表单的提交按钮   作用：把表单的数据提交到后端 -->
+      <input type="submit" value="提交">
+      <!-- reset：表单的重置按钮   作用：把表单的数据都清空-重置 -->
+      <input type="reset" value="重置">
+    </div>
+  </form>
+
+  <!-- 调用接口 -->
+  <!-- 回声应答 -->
+  <form action="https://huhuiyu.top/teach_project_service/" method="get">
+    <div>
+      <input type="text" placeholder="请输入回声参数" name="echo">
+    </div>
+    <div>
+      <input type="submit" value="提交">
+      <input type="reset" value="重置">
+    </div>
+  </form>
+  <!-- 获取图片验证码 -->
+  <form action="https://huhuiyu.top/teach_project_service/tool/getImageCode" method="post">
+    <div>
+      <input type="submit" value="提交">
+      <input type="reset" value="重置">
+    </div>
+  </form>
+</body>
+
+</html>
