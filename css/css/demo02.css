@@ -1,0 +1,80 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* 自定义字体 */
+@font-face {
+  /* 指定自定义字体的名称 */
+  font-family: 'FZSJ-BUFSGBFN.TTF';
+  /* 自定自定义字体文件 */
+  src: url('../font/FZSJ-BUFSGBFN.TTF');
+}
+
+.font01 {
+  /* 字体大小 */
+  font-size: 20px;
+  /* font-family:设置字体 */
+  font-family: 'FZSJ-BUFSGBFN.TTF';
+}
+
+.font02 {
+  font-size: 20px;
+  /* 
+    font-style:字体风格
+    normal:正常样式
+    italic:斜体
+  */
+  font-style: italic;
+}
+
+/* 字体粗细 */
+.font03 {
+  font-size: 20px;
+  /* 
+  bold：粗体
+  bolder：更粗
+  lighter：细体
+  也可以用数值：100-900
+  */
+  font-weight: bolder;
+}
+
+/* 一套 */
+/* 正常未访问过的链接 */
+a：link {
+  color: black;
+}
+/* 已经访问过的链接 */
+a:visited {
+  color: green;
+}
+/* 鼠标放上去的样式 */
+a:hover {
+  color: yellow;
+}
+/* 鼠标点击时 */
+a:active {
+  color: red;
+}
+
+/* ul.ul01 对所有 class="ul01" 的ul标签都生效  */
+ul.ul01 {
+  /* 设置圆形序号 */
+  list-style: circle;
+}
+
+ul.ul02 {
+  /* 设置方形序号 */
+  list-style: square;
+}
+
+ol.ol01{
+  /* 英文技术序号 */
+  list-style: upper-roman;
+}
+
+ol.ol02{
+  /* 英文序号 */
+  list-style: lower-alpha;
+}

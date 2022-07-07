@@ -1,0 +1,88 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.contents {
+  display: flex;
+  /* content:内容 */
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  /* margin:外边距 */
+  margin: 1rem;
+  /* padding:内边距 */
+  padding: 1rem;
+  /* border:边框 */
+  border: 2px solid black;
+}
+
+.border01 {
+  /* border:简写属性 */
+  /* 
+  计量单位的个数
+  一个：对上下左右都会生效
+  两个：对上下  左右生效
+  三个：上 左右 下
+  四个：上 右 下 左
+  */
+  /* 
+  solid：实线边框
+  dashed: 虚线边框
+  dotted：点线边框
+  */
+  border: 2px solid red;
+}
+
+.border02 {
+  border: 2px dashed red;
+}
+
+.border03 {
+  border: 2px dotted red;
+}
+
+/* 固定 */
+/* 定位 position: */
+/* 固定 position: fixed; */
+/* 相对定位 relative */
+/* 绝对定位 absolute */
+/* 没有定位 static */
+/* 继承父元素的position值 inherit */
+
+p {
+  width: 300px;
+  height: 200px;
+  /* 自适应内容，出现滚动条 */
+  /* overflow: auto; */
+  /* 去掉滚动条 */
+  /* overflow: hidden; */
+  /* 去掉x轴滚动条 */
+  overflow-x: hidden;
+}
+
+.float01 {
+  background-color: red;
+  /* 浮动 */
+  float: left;
+}
+
+.float02 {
+  background-color: red;
+  /* 浮动 */
+  float: right;
+}
+
+/*
+  [名称] 自定义属性名称
+  作用：[myClass] 对所有使用myClass属性的标签都生效
+*/
+[myClass] {
+  color: red;
+}
+
+[myClass=bb] {
+  color: blue;
+}

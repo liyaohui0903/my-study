@@ -1,0 +1,27 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.pc {
+  display: block;
+}
+
+.phone {
+  /* 隐藏元素 */
+  display: none;
+}
+
+/* 
+  对 网页像素低于745时才会生效
+*/
+@media screen and (max-width: 745px) {
+  .pc {
+    /* 隐藏元素 */
+    display: none;
+  }
+
+  .phone {
+    display: block;
+  }
+}

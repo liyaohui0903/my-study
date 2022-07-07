@@ -1,0 +1,96 @@
+/* 
+css:层叠样式表
+作用:控制网页样式的
+*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* 
+  标签名设置样式:对所有该标签都生效
+*/
+h3 {
+  color: red;
+}
+
+/* 
+.names:对所有class="names"的标签都生效
+*/
+.names {
+  text-align: center;
+}
+
+/* 
+first-child:第一个子元素生效
+last-child:最后一个子元素生效
+nth-child(x):对第x个子元素生效
+*/
+.names > div:last-child {
+  color: red;
+}
+
+/* 
+#myClass01：对所有id=myClass01的标签都生效
+*/
+#myClass01,
+#myClass02,
+#myClass03 {
+  /* 粗体 */
+  font-weight: bold;
+  text-align: center;
+}
+
+.class01,
+.class02,
+.class03,
+#myClass02 {
+  font-weight: bold;
+  text-align: center;
+  color: red;
+}
+
+.back01 {
+  /* background:简写属性 */
+  background: red
+    url('https://s.cn.bing.net/th?id=OHR.HecetaHead_ZH-CN2813876594_UHD.jpg&rf=LaDigue_UHD.jpg&w=3840&h=2160&c=8&rs=1&o=3&r=0');
+  background-size: cover;
+  height: 500px;
+}
+
+.text01 {
+  /* 文本颜色 */
+  color: red;
+  /* 文本对齐 */
+  /* 居中 */
+  text-align: center;
+}
+
+.text02 {
+  /* 文本颜色 */
+  color: red;
+  /* 文本对齐 */
+  /* 居左 */
+  text-align: left;
+}
+
+.text03 {
+  /* 文本颜色 */
+  color: red;
+  /* 文本对齐 */
+  /* 居右 */
+  text-align: right;
+}
+
+a{
+  text-decoration: none;
+  color: red;
+}
+
+p{
+  /* 文本缩进 */
+  text-indent: 30px;
+  /* 文本间隔 */
+  letter-spacing: 10px;
+}
