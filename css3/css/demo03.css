@@ -1,0 +1,368 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* 第一行 */
+.myBtn01 {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.myBtn01 > button {
+  margin: 0rem 0.4rem;
+  padding: 0.7rem 2rem;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+}
+
+.myBtn01 button:nth-child(1) {
+  border: 0.8px solid #dcdfe6;
+  background: #ffffff;
+  color: #606266;
+}
+
+.myBtn01 button:nth-child(1):hover {
+  cursor: pointer;
+  border: 0.8px solid #c6e2ff;
+  background: #ecf5ff;
+  color: #669eff;
+}
+
+.myBtn01 button:nth-child(1):active {
+  border: 0.8px solid #3a8ee6;
+}
+
+.myBtn01 button:nth-child(2) {
+  border: 0.8px solid #66b1ff;
+  background: #66b1ff;
+  color: #ffffff;
+}
+
+.myBtn01 button:nth-child(2):hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.myBtn01 button:nth-child(2):active {
+  border: 0.8px solid #3a8ee6;
+  background: #3a8ee6;
+}
+
+.myBtn01 button:nth-child(3) {
+  border: 0.8px solid #85ce61;
+  background: #85ce61;
+  color: #ffffff;
+}
+
+.myBtn01 button:nth-child(3):hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.myBtn01 button:nth-child(3):active {
+  border: 0.8px solid #5daf34;
+  background: #5daf34;
+}
+
+.myBtn01 button:nth-child(4) {
+  border: 0.8px solid #909399;
+  background: #909399;
+  color: #ffffff;
+}
+
+.myBtn01 button:nth-child(4):hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.myBtn01 button:nth-child(4):active {
+  border: 0.8px solid #82848a;
+  background: #82848a;
+}
+
+.myBtn01 button:nth-child(5) {
+  border: 0.8px solid #e6a23c;
+  background: #e6a23c;
+  color: #ffffff;
+}
+
+.myBtn01 button:nth-child(5):hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.myBtn01 button:nth-child(5):active {
+  border: 0.8px solid #cf9236;
+  background: #cf9236;
+}
+
+.myBtn01 button:nth-child(6) {
+  border: 0.8px solid #f56c6c;
+  background: #f56c6c;
+  color: #ffffff;
+}
+
+.myBtn01 button:nth-child(6):hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.myBtn01 button:nth-child(6):active {
+  border: 0.8px solid #dd6161;
+  background: #dd6161;
+}
+
+/* 第二行 */
+.myBtn02 {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.myBtn02 > button {
+  margin: 0rem 0.4rem;
+  padding: 0.7rem 2rem;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+}
+
+.myBtn02 button:nth-child(1) {
+  border: 0.8px solid #dcdfe6;
+  background: #ffffff;
+  color: #606266;
+}
+
+.myBtn02 button:nth-child(1):hover {
+  cursor: pointer;
+  border: 0.8px solid #409eff;
+  color: #409eff;
+}
+
+.myBtn02 button:nth-child(1):active {
+  border: 0.8px solid #3a8ee6;
+  color: #3a8ee6;
+}
+
+.myBtn02 button:nth-child(2) {
+  border: 0.8px solid #b3d8ff;
+  background: #ecf5ff;
+  color: #409eff;
+}
+
+.myBtn02 button:nth-child(2):hover {
+  border: 0.8px solid #66b1ff;
+  background: #66b1ff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.myBtn02 button:nth-child(2):active {
+  border: 0.8px solid #3a8ee6;
+  background: #3a8ee6;
+}
+
+.myBtn02 button:nth-child(3) {
+  border: 0.8px solid #c2e7b0;
+  background: #f0f9eb;
+  color: #67c23a;
+}
+
+.myBtn02 button:nth-child(3):hover {
+  border: 0.8px solid #67c23a;
+  background: #67c23a;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.myBtn02 button:nth-child(3):active {
+  border: 0.8px solid #5daf34;
+  background: #5daf34;
+}
+
+.myBtn02 button:nth-child(4) {
+  border: 0.8px solid #d3d4d6;
+  background: #f4f4f5;
+  color: #aa93a5;
+}
+
+.myBtn02 button:nth-child(4):hover {
+  border: 0.8px solid #909399;
+  background: #909399;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.myBtn02 button:nth-child(4):active {
+  border: 0.8px solid #82848a;
+  background: #82848a;
+}
+
+.myBtn02 button:nth-child(5) {
+  border: 0.8px solid #f5dab1;
+  background: #fdf6ec;
+  color: #e6a23c;
+}
+
+.myBtn02 button:nth-child(5):hover {
+  border: 0.8px solid #e6a23c;
+  background: #e6a23c;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.myBtn02 button:nth-child(5):active {
+  border: 0.8px solid #cf9236;
+  background: #cf9236;
+}
+
+.myBtn02 button:nth-child(6) {
+  border: 0.8px solid #fbc4c4;
+  background: #fef0f0;
+  color: #f66c6c;
+}
+
+.myBtn02 button:nth-child(6):hover {
+  border: 0.8px solid #f56c6c;
+  background: #f56c6c;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.myBtn02 button:nth-child(6):active {
+  border: 0.8px solid #dd6161;
+  background: #dd6161;
+}
+
+/* 第三行 */
+.myBtn03 {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.myBtn03 > button {
+  margin: 0rem 0.4rem;
+  padding: 0.7rem 2rem;
+  border-radius: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.myBtn03 button:nth-child(1) {
+  border: 0.8px solid #dcdfe6;
+  background: #ffffff;
+  color: #606266;
+}
+
+.myBtn03 button:nth-child(1):hover {
+  cursor: pointer;
+  border: 0.8px solid #c6e2ff;
+  background: #ecf5ff;
+  color: #669eff;
+}
+
+.myBtn03 button:nth-child(1):active {
+  border: 0.8px solid #3a8ee6;
+}
+
+.myBtn03 button:nth-child(2) {
+  border: 0.8px solid #66b1ff;
+  background: #66b1ff;
+  color: #ffffff;
+}
+
+.myBtn03 button:nth-child(2):hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.myBtn03 button:nth-child(2):active {
+  border: 0.8px solid #3a8ee6;
+  background: #3a8ee6;
+}
+
+.myBtn03 button:nth-child(3) {
+  border: 0.8px solid #85ce61;
+  background: #85ce61;
+  color: #ffffff;
+}
+
+.myBtn03 button:nth-child(3):hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.myBtn03 button:nth-child(3):active {
+  border: 0.8px solid #5daf34;
+  background: #5daf34;
+}
+
+.myBtn03 button:nth-child(4) {
+  border: 0.8px solid #909399;
+  background: #909399;
+  color: #ffffff;
+}
+
+.myBtn03 button:nth-child(4):hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.myBtn03 button:nth-child(4):active {
+  border: 0.8px solid #82848a;
+  background: #82848a;
+}
+
+.myBtn03 button:nth-child(5) {
+  border: 0.8px solid #e6a23c;
+  background: #e6a23c;
+  color: #ffffff;
+}
+
+.myBtn03 button:nth-child(5):hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.myBtn03 button:nth-child(5):active {
+  border: 0.8px solid #cf9236;
+  background: #cf9236;
+}
+
+.myBtn03 button:nth-child(6) {
+  border: 0.8px solid #f56c6c;
+  background: #f56c6c;
+  color: #ffffff;
+}
+
+.myBtn01 button:nth-child(6):hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.myBtn01 button:nth-child(6):active {
+  border: 0.8px solid #dd6161;
+  background: #dd6161;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.pages > div {
+  padding: 0.7rem 1.7rem;
+  margin: 0rem 0.2rem;
+  border: 1px solid #3093fc;
+}
+
+.pages > div:hover {
+  cursor: pointer;
+  background: #53a6ff;
+}
+
+.pages > div:active {
+  background: #4698ef;
+}

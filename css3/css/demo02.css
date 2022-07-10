@@ -1,0 +1,236 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.dh01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  /* transition-过渡动画 */
+  /* 属性值：需要添加过渡动画的属性名称 过渡动画需要的时间 */
+  transition: width 2s;
+}
+
+.dh01:hover {
+  width: 500px;
+  cursor: pointer;
+}
+
+.dh02 {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  /* transition-过渡动画 */
+  /* all 全部、所有   对所有属性都添加过渡动画 过度动画时间 */
+  transition: all 2s;
+}
+
+.dh02:hover {
+  width: 400px;
+  height: 200px;
+  cursor: pointer;
+  background-color: yellow;
+}
+
+.dh03 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  transition: all 2s;
+}
+
+.dh03:hover {
+  cursor: pointer;
+  transform: rotate(120deg);
+}
+
+.dh04 {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  transition: all 4s;
+}
+
+.dh04:hover {
+  cursor: pointer;
+  transform: rotate(360deg);
+}
+
+.dh05 {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  transition: all 4s;
+}
+
+.dh05:hover {
+  cursor: pointer;
+  transform: rotateX(360deg);
+}
+
+.dh06 {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  transition: all 4s;
+}
+
+.dh06:hover {
+  cursor: pointer;
+  transform: rotateY(360deg);
+}
+
+.mydh01 {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  /* 动画属性 */
+  /* 属性值：自定义动画名称 动画时间 infinite-循环动画*/
+  animation: myAnimation 5s infinite;
+}
+
+@keyframes myAnimation {
+  /* 0%-100% 动画的完成进度 */
+  0% {
+    background-color: aqua;
+  }
+  25% {
+    background-color: blue;
+  }
+  50% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: brown;
+  }
+  100% {
+    background-color: blueviolet;
+  }
+}
+
+.mydh02 {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  /* 动画属性 */
+  /* 属性值：自定义动画名称 动画时间 infinite-循环动画*/
+  animation: myAnimation02 5s infinite;
+}
+
+@keyframes myAnimation02 {
+  /* 0%-100% 动画的完成进度 */
+  0% {
+    background-color: aqua;
+    font-size: 20px;
+  }
+  50% {
+    background-color: yellow;
+    font-size: 30px;
+  }
+  100% {
+    background-color: blueviolet;
+    font-size: 20px;
+  }
+}
+
+.img01 {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.img01 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img02 {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.img02 img {
+  width: 500px;
+  height: auto;
+  transition: all 2s;
+}
+
+.img02 img:hover {
+  /* 属性值0-1 */
+  /* 
+  opacity
+  0:完全白
+  1:正常样式
+  */
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.img03 {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  width: 250px;
+  height: 164px;
+  border: 1.2px solid black;
+  overflow: hidden;
+}
+
+.img03 img {
+  transition: all 0.5s;
+}
+
+.img03 img:hover {
+  cursor: pointer;
+  /* scale():定义缩放转换(缩放效果) */
+  /* transform:  转换 */
+  transform: scale(1.2);
+}
+
+.mycard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  width: 200px;
+  height: 300px;
+  background: blueviolet;
+  transition: all 0.25s;
+}
+
+.mycard:hover {
+  cursor: pointer;
+  box-shadow: 0.3rem 0.5rem 0.8rem rgb(154, 150, 150);
+}
