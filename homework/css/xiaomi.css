@@ -1,0 +1,89 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.top {
+  display: flex;
+  background-color: #333;
+  height: 40px;
+}
+
+.top > div {
+  width: 100%;
+  display: flex;
+  font-size: 12px;
+  color: #b0b0b0;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.top > div > div {
+  display: flex;
+}
+
+.top > div > div > div {
+  display: flex;
+  margin: 0rem 0.2rem;
+}
+
+.top > div > div > div {
+  display: flex;
+  margin: 0rem 0.2rem;
+}
+
+.top > div > div > div > div {
+  display: flex;
+  margin: 0rem 0.2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.top01 > div:hover {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.top02 > div:hover {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.shop {
+  width: 100px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(66, 66, 66);
+}
+
+.shop:hover {
+  cursor: pointer;
+  background-color: white;
+  color: orange;
+}
+
+.hand {
+  display: flex;
+  background-color: white;
+  margin: 1.2rem 13.5rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hand > div {
+  display: flex;
+}
+
+.hand > div > div {
+  display: flex;
+  margin: 1rem;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.hand > div > div:hover {
+  cursor: pointer;
+  color: #ff6700;
+}
+

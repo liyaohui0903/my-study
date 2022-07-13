@@ -83,6 +83,6 @@ p {
   color: red;
 }
 
-[myClass=bb] {
+[myClass='bb'] {
   color: blue;
 }
