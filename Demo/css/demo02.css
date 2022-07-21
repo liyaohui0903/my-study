@@ -1,0 +1,531 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.tops {
+  display: flex;
+  background: #333333;
+  color: #b0b0b0;
+  justify-content: space-around;
+  height: 36px;
+  align-items: center;
+}
+
+.tops > div {
+  display: flex;
+  align-items: center;
+}
+
+.tops > div > div {
+  display: flex;
+  margin: 0 0.2rem;
+  font-size: 12px;
+}
+
+.tops > div > div:hover {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.tops > div:last-child > div:last-child {
+  display: flex;
+  align-items: center;
+  background: #424242;
+  padding: 0.2rem;
+}
+
+.tops > div:first-child > div:last-child,
+.tops > div:last-child > div:nth-child(6),
+.tops > div:last-child > div:nth-child(8),
+.tops > div:last-child > div:nth-child(10) {
+  display: flex;
+  align-items: center;
+  padding: 0.54rem;
+}
+
+.tops > div:first-child > div:last-child:hover,
+.tops > div:last-child > div:nth-child(6):hover,
+.tops > div:last-child > div:nth-child(8):hover,
+.tops > div:last-child > div:nth-child(10):hover {
+  background: #ffffff;
+  color: #ff6700;
+}
+
+.tops > div:last-child > div:last-child:hover {
+  background: #ffffff;
+  color: #ff6700;
+}
+
+.tops > div:last-child > div:last-child > div {
+  margin: 0.3rem;
+}
+
+.tops > div:last-child > div:last-child > div i {
+  font-size: 1.25rem;
+}
+
+.hands {
+  display: flex;
+}
+
+.hands > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.hands > div > div {
+  display: flex;
+}
+
+.hands > div > div:first-child {
+  width: 103px;
+  height: 74px;
+  cursor: pointer;
+}
+
+.hands > div > div:nth-child(2) {
+  margin-left: 2rem;
+  margin-right: 10rem;
+}
+
+.hands > div > div:nth-child(2) > div {
+  margin: 0rem 2rem;
+}
+
+.hands > div > div:nth-child(2) > div:hover {
+  cursor: pointer;
+  color: #cf0a2c;
+}
+
+.hands > div > div:last-child > div i {
+  font-size: 26px;
+  color: #a3a3a3;
+}
+
+.hands > div > div:last-child > div i:hover {
+  cursor: pointer;
+  color: #666666;
+}
+
+.pmd {
+  display: flex;
+  background-image: url('https://res.vmallres.com/uomcdn/CN/cms/202207/2265FE502CDB4E3EEE122608311A4EC6.jpg');
+  background-size: cover;
+  animation: myBackGround 12s infinite;
+}
+
+/* 背景切换自定义动画 */
+@keyframes myBackGround {
+  0% {
+    background-image: url('https://res.vmallres.com/uomcdn/CN/cms/202207/88F81A18D8D5471714052FFCAEF8FC23.jpg');
+  }
+  25% {
+    background-image: url('https://res.vmallres.com/uomcdn/CN/cms/202207/3DCD11E6BA7A0A8ACC7F6FC86AE90C33.jpg');
+  }
+  50% {
+    background-image: url('https://res.vmallres.com/uomcdn/CN/cms/202207/F7B3A3017BE512266B4C119835DF938C.jpg');
+  }
+  75% {
+    background-image: url('https://res.vmallres.com/uomcdn/CN/cms/202207/9A785045B5B458865534FA1AD5B1B843.jpg');
+  }
+  100% {
+    background-image: url('https://res.vmallres.com/uomcdn/CN/cms/202207/F9D09761AC0E7C950078CFD27C92B410.png');
+  }
+}
+
+.pmd > div {
+  display: flex;
+}
+
+.pmd > div > div:first-child {
+  margin: 4rem;
+  margin-left: 15rem;
+  width: 180px;
+  background: #fefeff;
+  align-items: center;
+}
+
+.pmd > div > div:first-child > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 18px 0px;
+  padding: 0px 8px;
+  color: #656566;
+  font-size: 14px;
+}
+
+.pmd > div > div:first-child > div :hover {
+  cursor: pointer;
+  color: #000;
+}
+
+.pmd > div > div:nth-child(2) > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1px solid #c6c6c6;
+  border-radius: 2rem;
+  margin: 18rem 1rem;
+  background: #c6c6c6;
+  height: 50px;
+  width: 50px;
+}
+
+.pmd > div > div:nth-child(2) > div i {
+  font-size: 1.5rem;
+  color: #fefefe;
+}
+
+.pmd > div > div:nth-child(2) > div:hover {
+  cursor: pointer;
+  background-color: #adb0b2;
+}
+
+.pmd > div > div:nth-child(3) > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1px solid #c6c6c6;
+  border-radius: 2rem;
+  margin-top: 18rem;
+  margin-left: 50rem;
+  background: #c6c6c6;
+  height: 50px;
+  width: 50px;
+}
+
+.pmd > div > div:nth-child(3) > div i {
+  font-size: 1.5rem;
+  color: #fefefe;
+}
+
+.pmd > div > div:nth-child(3) > div:hover {
+  cursor: pointer;
+  background-color: #adb0b2;
+}
+
+.mains {
+  background-color: #f1f3f5;
+}
+
+.mains_01 {
+  display: flex;
+  background: #f1f3f5;
+}
+
+.mains_01 > div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.mains_01 > div > div {
+  margin: 2rem 4rem;
+}
+
+.mains_01 > div > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mains_01 > div > div :hover {
+  cursor: pointer;
+  color: #797a7b;
+}
+
+.mains_01 > div > div > div img {
+  width: 48px;
+  height: 48px;
+}
+
+.mains_02 {
+  display: flex;
+  background: #f1f3f5;
+  justify-content: center;
+}
+
+.mains_02 > div {
+  display: flex;
+  margin: 0.6rem;
+}
+
+.mains_02 > div img {
+  width: 291px;
+  height: 194px;
+}
+
+.mains_02 > div:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 15px rgb(188, 188, 188);
+}
+
+.mains_03 {
+  background: #f1f3f5;
+  padding-bottom: 4rem;
+}
+
+.mains_03 > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 15rem;
+  cursor: pointer;
+}
+
+.mains_03 > div:first-child > div:first-child {
+  font-size: 28px;
+  color: #000;
+}
+
+.mains_03 > div:first-child > div:last-child {
+  font-size: 15px;
+  color: #606162;
+}
+
+.mains_03 > div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.mains_03 > div:last-child > div {
+  width: 220px;
+  height: 285px;
+  margin: 0rem 1rem;
+  background: white;
+}
+
+.cards > div:hover {
+  cursor: pointer;
+  box-shadow: 5px -5px 5px rgb(222, 222, 222);
+}
+
+.mains_03 > div:last-child > div > div {
+  margin: 0.8rem;
+}
+
+.mains_03 > div:last-child > div > div:first-child img {
+  width: 177px;
+  height: 154px;
+}
+
+.mains_03 > div:last-child > div > div:last-child > div:first-child {
+  font-size: 14px;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.mains_03 > div:last-child > div > div:last-child > div:nth-child(2) {
+  font-size: 10px;
+  color: #808080;
+  margin: 0.3rem 0rem;
+}
+
+.mains_03 > div:last-child > div > div:last-child > div:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.7rem 0rem;
+  color: #cf0a2c;
+}
+
+.mains_03 > div:last-child > div > div:last-child > div:last-child > div {
+  margin: 0rem 0.2rem;
+}
+
+.mains_03
+  > div:last-child
+  > div
+  > div:last-child
+  > div:last-child
+  > div:last-child {
+  font-size: 12px;
+  color: #b0b0b0;
+  text-decoration: line-through #b0b0b0;
+}
+
+.shouhou {
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+}
+
+.shouhou > div > div:first-child {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.shouhou > div > div:first-child > div {
+  display: flex;
+  font-size: 1rem;
+  color: #000;
+  margin: 1.8rem 0rem;
+  cursor: pointer;
+}
+
+.shouhou > div > div:first-child > div i {
+  font-size: 1.5rem;
+}
+
+.shouhou > div > div:first-child > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 0.25rem;
+}
+
+.kefu {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.kefu > div:first-child {
+  display: flex;
+}
+
+.kefu > div:first-child > div {
+  margin: 1rem 2rem;
+}
+
+.kefu > div:first-child > div > div:first-child {
+  font-size: 14px;
+  color: #424242;
+}
+
+.kefu > div:first-child > div > div:last-child {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.kefu > div:first-child > div > div:last-child > div {
+  font-size: 12px;
+  color: #757575;
+  margin: 0.8rem 0rem;
+}
+
+.kefu > div:first-child > div > div:last-child > div:hover {
+  color: #cf0a2c;
+}
+
+.kefu > div:last-child {
+  text-align: center;
+  border-left: 1px solid #e0e0e0;
+  height: 220px;
+}
+
+.kefu > div:last-child > div {
+  margin: 0.4rem 3rem;
+}
+
+.kefu > div:last-child > div:first-child {
+  font-size: 22px;
+  color: #000;
+}
+
+.kefu > div:last-child > div:nth-child(2) {
+  font-size: 12px;
+  color: #616161;
+}
+
+.kefu > div:last-child > div:last-child {
+  display: flex;
+  justify-content: center;
+}
+
+.kefu > div:last-child > div:last-child > div {
+  display: flex;
+  border: 1px solid #000;
+  border-radius: 2rem;
+  color: #ffffff;
+  background: #000;
+  font-size: 12px;
+  justify-content: center;
+  margin-top: 0.8rem;
+  padding: 0.4rem 2.5rem;
+}
+
+.kefu > div:last-child > div:last-child > div:hover {
+  cursor: pointer;
+  background: #666666;
+}
+
+.kefu > div:last-child > div:last-child > div > div {
+  margin: 0rem 0.2rem;
+}
+
+.bottoms {
+  display: flex;
+  justify-content: center;
+  background: white;
+}
+
+.bottoms > div {
+  display: flex;
+  width: 1226px;
+  margin: 2rem 0rem;
+}
+
+.bottoms > div > div {
+  margin: 0rem 0.7rem;
+}
+
+.bottoms > div > div:first-child img {
+  width: 82px;
+  height: 50px;
+}
+
+.bottoms > div > div:last-child > div:first-child {
+  color: #000;
+  font-size: 12px;
+  margin: 0.2rem 0rem;
+}
+
+.bottoms > div > div:last-child {
+  cursor: pointer;
+  width: 850px;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+
+.rights {
+  display: flex;
+  position: fixed;
+  right: 1rem;
+  top: 60%;
+  background: rgb(247, 249, 250);
+  border-radius: 1rem;
+}
+
+.rights > div {
+  display: block;
+  margin: 0.8rem 0.9rem;
+}
+
+.rights > div > div {
+  display: block;
+  margin: 1.5rem 0rem;
+  text-align: center;
+  cursor: pointer;
+  font-size: 13px;
+  color: #999999;
+}
+
+.rights > div > div :hover {
+  cursor: pointer;
+  color: #cf0a2c;
+}
+
+.rights > div > div i {
+  font-size: 1.5rem;
+}
