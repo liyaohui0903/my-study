@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Js-第八课时</title>
+</head>
+
+<body>
+
+  <button onclick="showName()">点击调用函数</button>
+
+  <button id="btn">点击调用函数1</button>
+
+  <hr>
+
+  <input type="text" placeholder="用户名" id="uname">
+  <input type="password" placeholder="密码" id="upwd">
+  <input type="button" value="登录" id="loginBtn">
+
+</body>
+
+<script>
+
+  // 用Js事件调用函数
+  let btn = document.getElementById('btn')
+  // btn.onclick = function () {
+  //   showName()
+  // }
+
+  btn.addEventListener('click', function () {
+    showName()
+  })
+
+  function showName() {
+    console.log('点击了按钮!!');
+  }
+
+</script>
+
+<script src="js/demo08.js"></script>
+
+</html>
