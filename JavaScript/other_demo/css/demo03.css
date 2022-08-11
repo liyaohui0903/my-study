@@ -1,0 +1,18 @@
+body {
+  margin: 0px;
+}
+
+.imgCodes {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.imgCodes > div > div {
+  text-align: center;
+  margin: 1rem 0rem;
+}
+
+#codeImg {
+  cursor: pointer;
+}

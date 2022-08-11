@@ -1,0 +1,33 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.con {
+  /* 添加平滑滑动的效果 */
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.to-top {
+  position: fixed;
+  bottom: 6rem;
+  right: 4rem;
+}
+
+.to-top > a {
+  display: flex;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.3rem;
+  border-radius: 0.3rem;
+  transition: all 0.4s;
+  padding: 0.5rem 0.7rem;
+}
+
+.to-top > a :hover {
+  cursor: pointer;
+  background-color: #000;
+  color: white;
+}
